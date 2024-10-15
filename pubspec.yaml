@@ -1,0 +1,24 @@
+name: mobile_project1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^14.0.0 # อัปเดตเป็นเวอร์ชันล่าสุด
+  cupertino_icons: ^1.0.6
+  timezone: ^0.9.4 # อัปเดตให้เข้ากันได้
+  intl: ^0.17.0  # Make sure to use the latest version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
